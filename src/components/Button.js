@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Button = ({ text, handleClick }) => {
     return (
-        <button type="submit" onClick={handleClick}>{text}</button>
+        <button id="zip-submit" type="submit" onClick={handleClick}>{text}</button>
     )
 }
 
